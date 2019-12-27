@@ -1,0 +1,26 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 100px;
+    color: #003d6e;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #main-box {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    border: 15px solid #003d6e;
+    padding: 10px;
+    background: #4daefd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .uu{
+    padding: 100px;
+  }
