@@ -35,6 +35,10 @@ console.log('clientHeight',clientHeight);
 // while getBoundingClientRect() returns the rendering width and height.
 
 // scroll
+let scrollTo=mainBox.scrollTo(0,100); // scroll to 100 px on y 
+let scrollBy=mainBox.scrollBy(0,100)// scroll to 100 px on y  again and again
+let scroll=mainBox.scrollIntoView();
+
 let scrollLeft =mainBox.scrollLeft;
 let  scrollTop=mainBox.scrollTop;
 let scrollWidth =mainBox.scrollWidth;
