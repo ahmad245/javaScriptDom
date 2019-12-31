@@ -37,6 +37,7 @@ console.log('clientHeight',clientHeight);
 // scroll
 let scrollTo=mainBox.scrollTo(0,100); // scroll to 100 px on y 
 let scrollBy=mainBox.scrollBy(0,100)// scroll to 100 px on y  again and again
+let scrollToWithAnimation=mainBox.scrollTo({top:50,behavior:'smooth'})
 let scrollIntoView=mainBox.scrollIntoView();
 let scrollIntoViewWithanimation=mainBox.scrollIntoView({behavior:'smooth'});
 
